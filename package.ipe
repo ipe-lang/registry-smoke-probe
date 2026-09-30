@@ -1,0 +1,10 @@
+module Package exposing (package)
+
+import Ipe.Package exposing (..)
+
+
+package : Package
+package =
+    { name = "ipe-registry-smoke-probe"
+    , version = "0.0.0-smoke.20260930110928"
+    }
